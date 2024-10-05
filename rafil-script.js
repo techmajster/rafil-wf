@@ -227,3 +227,10 @@ $(".hero_slider").each(function () {
     }
   });
 });
+
+
+// create svg elements
+$(".svg-code").each(function (index) {
+  let svgCode = $(this).text();
+  $(svgCode).insertAfter($(this));
+});
